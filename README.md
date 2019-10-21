@@ -10,8 +10,8 @@ B = 2
 C = 33
 
 a == A and b == B and c == C
-False
+# -> False
 
 (a,b,c) == (A,B,C)
-False
+# -> False
 ```
