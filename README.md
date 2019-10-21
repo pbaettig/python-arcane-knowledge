@@ -25,7 +25,7 @@ Person = namedtuple('Person', ('first_name', 'last_name', 'drink_preference'))
 
 p = Person('Max', 'Muster', 'beer')
 ```
-
+Dataclasses behave more like proper classes, they allow methods for example.
 ```python
 from dataclasses import dataclass
 
@@ -43,7 +43,7 @@ p = Person('Max', 'Muster', 'beer')
 print(p.introduction())
 # -> Hello, my name is Max Muster and I like to drink beer
 ```
-Dataclasses behave more like proper classes, they allow methods for example. By default dataclasses are mutable"
+By default dataclasses objects are mutable.
 ```python
 p = Person('Max', 'Muster', 'beer')
 
