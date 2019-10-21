@@ -61,7 +61,6 @@ class Person:
   ...
 
 p = Person('Max', 'Muster', 'beer')
-# -> Hello, my name is Max Muster and I like to drink beer
 p.first_name = 'Bob'
 # -> Traceback (most recent call last):
 # ->   File "<input>", line 1, in <module>
